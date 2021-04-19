@@ -53,7 +53,7 @@
 ### 0. 必要なファイルをダウンロードする
 
 [TheOtherRoles.dll](https://github.com/haoming37/Doc_TheOtherRoles/raw/master/plugins/TheOtherRoles.dll)  
-[me.eisbison.theotherroles.cfg](https://github.com/haoming37/Doc_TheOtherRoles/blob/master/config/me.eisbison.theotherroles.cfg)
+[me.eisbison.theotherroles.cfg](https://raw.githubusercontent.com/haoming37/Doc_TheOtherRoles/master/config/me.eisbison.theotherroles.cfg)
 ### 1. インストールディレクトリを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
