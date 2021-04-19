@@ -53,7 +53,7 @@
 ### 0. 必要なファイルをダウンロードする
 
 [TheOtherRoles.dll](https://github.com/haoming37/Doc_TheOtherRoles/raw/master/plugins/TheOtherRoles.dll)  
-[me.eisbison.theotherroles.cfg](https://github.com/haoming37/Doc_TheOtherRoles/blob/master/config/me.eisbison.theotherroles.cfg)
+[me.eisbison.theotherroles.cfg](https://raw.githubusercontent.com/haoming37/Doc_TheOtherRoles/master/config/me.eisbison.theotherroles.cfg)
 ### 1. インストールディレクトリを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
@@ -188,8 +188,9 @@ Shifterのロール奪取は、Eraserのロール消去より先に実行され�
 
 ---
 #### Time Masters
-一定時間有効なバリアが貼れる  
-バリアを貼っているときにキルされると、キルがなかったことになり、時間が設定した秒数だけ巻き戻る  
+一定時間有効なバリアを貼ることができる(デフォルト3秒)
+バリア中にキルが実行されると3秒前に巻き戻る（全プレイヤーの位置が強制移動させられる）
+キルはクールダウン状態にならないため、結局逃げないといけない
 時間の巻き戻りは位置のみ反映される（インポスターのキルクールダウンやクルーメイトのタスク進行状況などは巻き戻らない）  
 バリアはVampireの噛みつき（一定時間後に死ぬ攻撃）にも有効  
 Medicのシールドが有効な場合、時間は巻き戻らない  
