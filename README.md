@@ -51,7 +51,8 @@
 ※au.libhalt.netのMod導入済の環境前提
 
 ### 0. 必要なファイルをダウンロードする
-[TheOtherRoles.dll](https://github.com/haoming37/Doc_TheOtherRoles/raw/master/plugins/TheOtherRoles.dll)
+
+[TheOtherRoles.dll](https://github.com/haoming37/Doc_TheOtherRoles/raw/master/plugins/TheOtherRoles.dll)  
 [me.eisbison.theotherroles.cfg](https://github.com/haoming37/Doc_TheOtherRoles/blob/master/config/me.eisbison.theotherroles.cfg)
 ### 1. インストールディレクトリを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
@@ -197,7 +198,7 @@ Vitalで死亡からの経過時間を見ることができる
 
 ---
 #### Spy
-インポスターからインポスターと同様に見える
+インポスターからインポスターと同様に見える  
 設定でキル判定について変えることができる
 - インポスターがスパイを殺せない
 - インポスターがスパイを殺せるが相方のインポスターも殺せる
