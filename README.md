@@ -88,7 +88,7 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 3人組のインポスター(インポスター3以上に設定する必要あり)  
 Godfather→通常のインポスター  
 Mafioso→Godfatherが死ぬと次のインポスターになる、Godfather死ぬまではキルもサボタージュもできない  
-Janitor→キルもサボタージュもできない  
+Janitor→キルもサボタージュもできない  死体を隠せる　VITALで見ると白くなる
 
 ---
 #### Morphing
