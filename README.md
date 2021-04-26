@@ -55,7 +55,7 @@
 ### 0. 必要なファイルをダウンロードする
 
 [TheOtherRoles.dll](https://github.com/haoming37/Doc_TheOtherRoles/raw/master/plugins/TheOtherRoles.dll)  
-[me.eisbison.theotherroles.cfg](https://github.com/haoming37/Doc_TheOtherRoles/blob/master/config/me.eisbison.theotherroles.cfg)
+[me.eisbison.theotherroles.cfg](https://raw.githubusercontent.com/haoming37/Doc_TheOtherRoles/master/config/me.eisbison.theotherroles.cfg)
 ### 1. インストールディレクトリを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
@@ -90,7 +90,7 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 3人組のインポスター(インポスター3以上に設定する必要あり)  
 Godfather→通常のインポスター  
 Mafioso→Godfatherが死ぬと次のインポスターになる、Godfather死ぬまではキルもサボタージュもできない  
-Janitor→キルもサボタージュもできない  
+Janitor→キルもサボタージュもできない  死体を隠せる　死体が隠されるとVITALで見ると白くなる
 
 ---
 #### Morphing
@@ -119,7 +119,7 @@ Vampireがいる場合は全ユーザにニンニクがくばられる
 ---
 #### Trickster
 他のプレイヤーから見えないボックスを3つ置くことができる  
-3つ目が置かれると他のプレイヤーから視認可能になり、Tricksterのみが使用可能なベントになる  
+ボックスは、3つ目が置かれた後の次の会議の後から、他のプレイヤーから視認可能になり、Tricksterのみが使用可能なベントになる  
 その後、新たな能力として一定時間プレイヤーの視界範囲を狭くすることができる(時間経過で終わる停電状態)
 
 ---
@@ -177,13 +177,16 @@ Sheriffがシールドが付いたプレイヤーをキルしようとすると�
 ---
 #### Mayor
 一人で2票分の投票になる  
-ミーティングボタンがどこでも押せる  
+ミーティング回数の上限に達していてもミーティングボタンを押すことができる
 
 ---
 #### Hacker
 スキルを有効化すると有効時間内のみ下記の効果が発動する  
 Adminがプレイヤーの色付きになる  
-Vitalで死亡からの経過時間を見ることができる
+Vitalで死亡からの経過時間を見ることができる  
+※MorphlingやCamouflagerのスキルによりプレーヤーの色が変化している場合、各色は以下のように表示される  
+pink orange yellow white cyan lime　→　明るい色  
+red blue green grey purple brown　→　暗い色  
 
 ---
 #### Shifter
@@ -193,9 +196,18 @@ Vitalで死亡からの経過時間を見ることができる
 奪われたプレイヤーは普通のクルーメイトになる
 インポスター陣営を奪おうとすると自殺する  
 
+Shifterのロール奪取は、Eraserのロール消去より先に実行される  
+ゲーム中一度のみ使用できる特殊行動（Engineerのどこでもサボタージュ修理など）は、
+奪われたプレーヤーがまだその特殊行動を行っていなかった場合のみ使用できる
+
 ---
 #### Time Masters
-一定時間有効なバリアが貼れる
+一定時間有効なバリアを貼ることができる(デフォルト3秒)
+バリア中にキルが実行されると3秒前に巻き戻る（全プレイヤーの位置が強制移動させられる）
+キルはクールダウン状態にならないため、結局逃げないといけない
+時間の巻き戻りは位置のみ反映される（インポスターのキルクールダウンやクルーメイトのタスク進行状況などは巻き戻らない）  
+バリアはVampireの噛みつき（一定時間後に死ぬ攻撃）にも有効  
+Medicのシールドが有効な場合、時間は巻き戻らない  
 
 ---
 #### Swapper
@@ -204,6 +216,7 @@ Vitalで死亡からの経過時間を見ることができる
 ---
 #### Tracker
 選択したプレイヤーのいる方向が矢印で表示されるようになる
+矢印は一定時間ごとに更新される
 
 ---
 #### Snitch
