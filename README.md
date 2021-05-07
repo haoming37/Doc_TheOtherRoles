@@ -299,7 +299,8 @@ Jackal陣営
 - 他のプレイヤーを一人選んでSidekickにすることができる(オプション ON/OFF)
 - Jackalが死んだ場合にSidekickがJackalに昇格する(オプション ON/OFF)
 - 昇格後に新たなSideKickを選定することができる(オプション ON/OFF)
-ベントが使える(オプション ON/OFF)
+- ベントが使える(オプション ON/OFF)  
+※Jackalは一度しかSidekickを選ぶことができない(Sidekickが死んだ場合は新たなSidekickは生まれない)
 
 #### Sidekick
 Jackalに選ばれると元々のロールを失ってSideKickになる
