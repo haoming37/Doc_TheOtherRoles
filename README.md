@@ -303,6 +303,7 @@ Jackal陣営
 ※Jackalは一度しかSidekickを選ぶことができない(Sidekickが死んだ場合は新たなSidekickは生まれない)
 
 #### Sidekick
-Jackalに選ばれると元々のロールを失ってSideKickになる
+Jackalに選ばれると元々のロールを失ってSideKickになる  
+※選ばれた瞬間に自身とJackalの名前が水色で見えるようになる
 - キルができる(オプション ON/OFF)
 - ベントが使える(オプション ON/OFF)
