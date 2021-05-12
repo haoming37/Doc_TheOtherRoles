@@ -7,8 +7,8 @@
   - [導入方法](#導入方法)
     - [0. 必要なファイルをダウンロードする](#0-必要なファイルをダウンロードする)
     - [1. インストールディレクトリを開く](#1-インストールディレクトリを開く)
-    - [2. au.libhalt.netのプラグインを無効化する](#2-aulibhaltnetのプラグインを無効化する)
-    - [3. TheOtherRolesのプラグインを有効化する](#3-theotherrolesのプラグインを有効化する)
+    - [2. MODの削除（古いバージョンを入れている場合)](#2-modの削除古いバージョンを入れている場合)
+    - [3. MODのインストール](#3-modのインストール)
     - [4. 起動確認](#4-起動確認)
   - [カスタムロール](#カスタムロール)
     - [インポスター陣営](#インポスター陣営)
@@ -52,31 +52,25 @@
 
 ### 0. 必要なファイルをダウンロードする
 
-[TheOtherRoles.dll](https://github.com/haoming37/Doc_TheOtherRoles/raw/master/plugins/TheOtherRoles.dll)  
-[me.eisbison.theotherroles.cfg](https://github.com/haoming37/Doc_TheOtherRoles/blob/master/config/me.eisbison.theotherroles.cfg)
+[TheOtherRoles+HaomingMod.2.6.2.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.6.2/TheOtherRoles+HaomingMod.2.6.2.zip)  
 ### 1. インストールディレクトリを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
 ![](images/2.png)
-### 2. au.libhalt.netのプラグインを無効化する
-2-2. BepingExディレクトリに移動  
-2-3. pluginsをplugins_libhaltに名前を変更
-2-4. pluginsディレクトリを新規に作成
+### 2. MODの削除（古いバージョンを入れている場合)
+赤枠で囲われているファイルを削除する
 ![](images/3.png)
-↓
-![](images/4.png)
-### 3. TheOtherRolesのプラグインを有効化する
-3-1. pluginsディレクトリにTheOtherRoles.dllをコピー  
-3-2. configディレクトリにme.eisbison.theotherroles.cfgをコピー
 
-※libhaltの環境で遊ぶ場合はpluginsディレクトリをリネームする(cfgはそのままで問題ないです)
+### 3. MODのインストール
+0.でダウンロードしたzipファイルを解凍して中身を展開する  
+![](images/4.png)
+
 
 ### 4. 起動確認
 4-1. ACCOUNTの下にTheOtherRolesの表記があればOK
 ![](images/menu.png)
-4-2. 接続先はCUSTOMを選択する
-![](images/custom.png)
-※接続できない場合はconfigディレクトリの中身のme.eisbison.theotherroles.cfgの中のIPアドレスが18.177.110.86になっているかを確認する
+4-2. 接続先はHaomingAWSを選択する  
+![](images/5.png)
 
 ## カスタムロール
 インポスター、クルーメイト、Lovers、Jester、Jackal陣営のロールを追加することができる
