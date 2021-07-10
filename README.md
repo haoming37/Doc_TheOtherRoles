@@ -65,7 +65,7 @@
 
 ### 0. 必要なファイルをダウンロードする
 
-[TheOtherRoles+HaomingMod.2.6.2.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.6.2/TheOtherRoles+HaomingMod.2.6.2.zip)  
+[TheOtherRoles+HaomingMod.2.7.13.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.7.13/TheOtherRoles+HaomingMod.2.7.13.zip)  
 ### 1. インストールディレクトリを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
@@ -80,7 +80,7 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 
 
 ### 4. 起動確認
-4-1. ACCOUNTの下にTheOtherRolesの表記があればOK
+4-1. TheOtherRolesの表記があればOK
 ![](images/menu.png)
 4-2. 接続先はHaomingAWSを選択する  
 ![](images/5.png)
@@ -215,9 +215,10 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 
 ---
 #### Seer
-幽霊が見れる
-- 死んだタイミングで画面が点滅する  
+幽霊とキルフラッシュを見ることができる
+- 死んだタイミングで画面が点滅する(数秒程度のラグあり)  
 ※時々バグで動作しないことがある
+- 死体があった場所にSeerのみが見ることができる幽霊が表示される
 
 ---
 #### Engineer
@@ -237,6 +238,8 @@ e.g 犯人は暗い色(or 明るい色)だった
 #### Lighter
 - クルーメイトよりも視野が広くなる（設定で変更可能）
 - 一定時間（デフォルトで5秒）視野を広くすることができる
+- スキル発動中はCamo、Morphling、透明化を看破することができる
+- スキルが発動していない場合は透明化していない対象をCamo状態で視認することができる
 
 ---
 #### Medic
