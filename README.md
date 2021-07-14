@@ -64,8 +64,6 @@
 - Polus、AirShipでの追加ベント
 
 ## 導入方法
-※au.libhalt.netのMod導入済の環境前提
-
 ### 0. 必要なファイルをダウンロードする
 
 [TheOtherRoles+HaomingMod.2.7.14.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.7.13/TheOtherRoles+HaomingMod.2.7.14.zip)  
