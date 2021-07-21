@@ -3,57 +3,59 @@
 <!-- TOC -->
 
 - [TheOtherRoles](#theotherroles)
-  - [概要](#概要)
-  - [導入方法](#導入方法)
-    - [0. 必要なファイルをダウンロードする](#0-必要なファイルをダウンロードする)
-    - [1. インストールフォルダを開く](#1-インストールフォルダを開く)
-    - [2. MODの削除（古いバージョンを入れている場合)](#2-modの削除古いバージョンを入れている場合)
-    - [3. MODのインストール](#3-modのインストール)
-    - [4. 起動確認](#4-起動確認)
-  - [マップへの変更点](#マップへの変更点)
-    - [Polusの変更点](#polusの変更点)
-    - [AirShipの変更点](#airshipの変更点)
-  - [カスタムロール](#カスタムロール)
-    - [インポスター陣営](#インポスター陣営)
-      - [Mafia](#mafia)
-      - [Morphing](#morphing)
-      - [Camouflager](#camouflager)
-      - [Vampire](#vampire)
-      - [Eraser](#eraser)
-      - [Trickster](#trickster)
-      - [Cleaner](#cleaner)
-      - [Warlock](#warlock)
-      - [Misimo](#misimo)
-      - [Ballad](#ballad)
-      - [Predator](#predator)
-      - [Trapper](#trapper)
-      - [Bomber](#bomber)
-      - [Mifune](#mifune)
-      - [Madmate](#madmate)
-    - [クルーメイト陣営](#クルーメイト陣営)
-      - [Sheriff](#sheriff)
-      - [Seer](#seer)
-      - [Engineer](#engineer)
-      - [Detective](#detective)
-      - [Lighter](#lighter)
-      - [Medic](#medic)
-      - [Mayor](#mayor)
-      - [Hacker](#hacker)
-      - [Shifter](#shifter)
-      - [Time Masters](#time-masters)
-      - [Swapper](#swapper)
-      - [Tracker](#tracker)
-      - [Snitch](#snitch)
-      - [Spy](#spy)
-      - [Security Guard](#security-guard)
-    - [第3陣営](#第3陣営)
-      - [Guesser](#guesser)
-      - [Child](#child)
-      - [Jester](#jester)
-      - [Lovers](#lovers)
-      - [Jackal](#jackal)
-      - [Sidekick](#sidekick)
-      - [Arsonist(放火魔)](#arsonist放火魔)
+	- [概要](#概要)
+	- [導入方法](#導入方法)
+		- [0. 必要なファイルをダウンロードする](#0-必要なファイルをダウンロードする)
+		- [1. インストールフォルダを開く](#1-インストールフォルダを開く)
+		- [2. MODの削除（古いバージョンを入れている場合)](#2-modの削除古いバージョンを入れている場合)
+		- [3. MODのインストール](#3-modのインストール)
+		- [4. 起動確認](#4-起動確認)
+	- [マップへの変更点](#マップへの変更点)
+		- [Polusの変更点](#polusの変更点)
+		- [AirShipの変更点](#airshipの変更点)
+	- [カスタムロール](#カスタムロール)
+		- [インポスター陣営](#インポスター陣営)
+			- [Mafia](#mafia)
+			- [Morphing](#morphing)
+			- [Camouflager](#camouflager)
+			- [Vampire](#vampire)
+			- [Eraser](#eraser)
+			- [Trickster](#trickster)
+			- [Cleaner](#cleaner)
+			- [Warlock](#warlock)
+			- [Misimo](#misimo)
+			- [Ballad](#ballad)
+			- [Predator](#predator)
+			- [Trapper](#trapper)
+			- [Bomber](#bomber)
+			- [Mifune](#mifune)
+			- [漢](#漢)
+			- [Madmate](#madmate)
+		- [クルーメイト陣営](#クルーメイト陣営)
+			- [Sheriff](#sheriff)
+			- [Seer](#seer)
+			- [Engineer](#engineer)
+			- [Detective](#detective)
+			- [Lighter](#lighter)
+			- [Medic](#medic)
+			- [Mayor](#mayor)
+			- [Hacker](#hacker)
+			- [Shifter](#shifter)
+			- [Time Masters](#time-masters)
+			- [Swapper](#swapper)
+			- [Tracker](#tracker)
+			- [Snitch](#snitch)
+			- [Spy](#spy)
+			- [Security Guard](#security-guard)
+			- [無能](#無能)
+		- [第3陣営](#第3陣営)
+			- [Guesser](#guesser)
+			- [Child](#child)
+			- [Jester](#jester)
+			- [Lovers](#lovers)
+			- [Jackal](#jackal)
+			- [Sidekick](#sidekick)
+			- [Arsonist(放火魔)](#arsonist放火魔)
 
 <!-- /TOC -->
 
@@ -204,6 +206,9 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 - 千里眼中はマウスのクリック判定がおかしくなるためキーボードでの操作のみ可能
 -  千里眼発動後、一定時間で元に戻る
 -  ボタン等の表示がおかしくなった場合はTabキーを押すと直る
+
+#### 漢
+- 誰が誰に入れたかの投票結果を見ることができる
   
 ---
 #### Madmate
@@ -213,6 +218,8 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 - 誰がインポスターか分からない
 - インポスターからも誰がMadmateか分からない
 - インポスター陣営が勝利すると勝利となる
+
+---
 
 ### クルーメイト陣営
 
@@ -328,6 +335,14 @@ Medicのシールドが有効な場合、時間は巻き戻らない
   
 Tricksterのボックスは封印できない  
 Skeldでカメラを追加した場合、3秒ごとに表示が切り替わる  
+
+---
+#### 無能
+クルー陣営のハズレ枠
+- 他のプレイヤーが全員カモフラージュ状態になる
+- サボタージュを止めることができない、アドミン、バイタルを見ることができない
+- カメラは見ることができるが、カモフラージュ状態になっているためあまり意味がない
+- 投票を行うことはできる
 
 ### 第3陣営
 
