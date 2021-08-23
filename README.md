@@ -70,7 +70,7 @@
 ## 導入方法
 ### 0. 必要なファイルをダウンロードする
 
-[TheOtherRoles+HaomingMod.2.8.15.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.15/TheOtherRoles+HaomingMod.2.8.15.zip)  
+[TheOtherRoles+HaomingMod.2.8.16.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.16/TheOtherRoles+HaomingMod.2.8.16.zip)  
 ### 1. インストールフォルダを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
