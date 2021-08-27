@@ -13,6 +13,7 @@
 	- [マップへの変更点](#マップへの変更点)
 		- [Polusの変更点](#polusの変更点)
 		- [AirShipの変更点](#airshipの変更点)
+	- [インポスターへの変更点](#インポスターへの変更点)
 	- [カスタムロール](#カスタムロール)
 		- [インポスター陣営](#インポスター陣営)
 			- [マフィア(Mafia)](#マフィアmafia)
@@ -23,6 +24,7 @@
 			- [トリックスター(Trickster)](#トリックスターtrickster)
 			- [クリーナー(Cleaner)](#クリーナーcleaner)
 			- [ウォーロック(Warlock)](#ウォーロックwarlock)
+			- [賞金稼ぎ(Bounty Hunter)](#賞金稼ぎbounty-hunter)
 			- [Misimo](#misimo)
 			- [Ballad](#ballad)
 			- [プレデター(Predator)](#プレデターpredator)
@@ -58,7 +60,7 @@
 			- [サイドキック(Sidekick)](#サイドキックsidekick)
 			- [放火魔(Arsonist)](#放火魔arsonist)
 			- [マッドサイエンティスト](#マッドサイエンティスト)
-			- [Madmate](#madmate)
+			- [マッドメイト](#マッドメイト)
 
 <!-- /TOC -->
 
@@ -71,7 +73,7 @@
 ## 導入方法
 ### 0. 必要なファイルをダウンロードする
 
-[TheOtherRoles+HaomingMod.2.8.16.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.16/TheOtherRoles+HaomingMod.2.8.16.zip)  
+[TheOtherRoles+HaomingMod.2.8.16.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.17/TheOtherRoles+HaomingMod.2.8.17.zip)  
 ### 1. インストールフォルダを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
@@ -98,6 +100,12 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 ![](images/polus_mod.png)  
 ### AirShipの変更点
 ![](images/airship_mod.png)  
+
+## インポスターへの変更点
+下記の3つの機能をオプションでON/OFFすることができる
+- ゲーム内にいる役職一覧を表示する機能
+- ゲーム内にいるプレイヤーの距離と方向を表示する機能
+- 2人以上のプレイヤーが固まっている場所に矢印を表示する機能
 
 ## カスタムロール
 インポスター、クルーメイト、恋人、ジェスター、ジャッカル、放火魔、マッドサイエンティスト陣営のロールを追加することができる
@@ -157,6 +165,12 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 ※呪いによるキルは、インポスターもキルできる（自分もキルできる）  
 ※通常のキルでは呪いは解除されない  
 ※WarlockはVampireとは同じゲームに存在できない  
+
+---
+#### 賞金稼ぎ(Bounty Hunter)
+- ランダムに選ばれた賞金首をキルすると通常よりも短いクールダウンになる
+- 賞金首以外をキルすると通常のキルクールダウンに追加でペナルティタイムが加算される
+- 一定時間（デフォルトで60秒）が経過するまたは賞金首をキルすると次の賞金首が選ばれる
 
 ---
 #### Misimo
@@ -452,7 +466,7 @@ Jackalに選ばれると元々のロールを失ってSideKickになる
 - サボタージュを行うことができる
 
 ---
-#### Madmate
+#### マッドメイト
 - インポスター陣営が勝利すると勝利となる
 - タスクなし（フェイクタスク）
 - キルもサボタージュもできない
