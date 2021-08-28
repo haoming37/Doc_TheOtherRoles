@@ -33,6 +33,7 @@
 			- [御船(Mifune)](#御船mifune)
 			- [漢](#漢)
 			- [乗っ取り(Nottori)](#乗っ取りnottori)
+			- [モタリケ](#モタリケ)
 		- [クルーメイト陣営](#クルーメイト陣営)
 			- [シェリフ(Sheriff)](#シェリフsheriff)
 			- [霊能力者(Seer)](#霊能力者seer)
@@ -73,7 +74,7 @@
 ## 導入方法
 ### 0. 必要なファイルをダウンロードする
 
-[TheOtherRoles+HaomingMod.2.8.17.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.17/TheOtherRoles+HaomingMod.2.8.17.zip)  
+[TheOtherRoles+HaomingMod.2.8.18.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.18/TheOtherRoles+HaomingMod.2.8.18.zip)  
 ### 1. インストールフォルダを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
@@ -233,7 +234,21 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 #### 乗っ取り(Nottori)
 - 他プレイヤーの役職を見ることができる
 - 第三陣営の役職の可視化はオプションでON/OFF可能
-  
+
+---
+#### モタリケ
+- ダイスを一度振ることができる(会議が終わると1回補充)
+- ダイスを振ると下記の表の効果のどれかがランダムで発生する
+- ダイスを振るたびに自爆が発生する確率が少しずつ上昇していく  
+
+初回時の確率は下記の様になっている
+|効果|確率|
+|---|---|
+|自爆|5%|
+|キルクールダウン解消|15%|
+|次の投票が2票|15%|
+|カモフラージュ(再度振れる）|30%|
+|透明化 ON/OFF(再度振れる)|35%|
 
 ---
 
