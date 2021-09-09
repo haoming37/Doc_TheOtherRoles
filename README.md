@@ -78,7 +78,7 @@
 ## 導入方法
 ### 0. 必要なファイルをダウンロードする
 
-[TheOtherRoles+HaomingMod.2.8.22.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.22/TheOtherRoles+HaomingMod.2.8.22.zip)  
+[TheOtherRoles+HaomingMod.2.8.24.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.24/TheOtherRoles+HaomingMod.2.8.24.zip)  
 ### 1. インストールフォルダを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
@@ -515,6 +515,8 @@ Jackalに選ばれると元々のロールを失ってSideKickになる
 ---
 #### 狐
 - ゲーム終了時に生き残っていると勝利となる
-- マッドサイエンティスト、ジェスターの勝利時は生き残っても勝利にならない
+- サボタージュの修理、アドミン、バイタルを行うことができない
+- マッドサイエンティスト、ジェスター、放火魔の勝利時は生き残っても勝利にならない
 - 占い師に占われると死亡する
-- 狐がゲームに存在すると会議時にメッセージで狐の生死が送られてくる
+- 狐がゲームに存在すると最初の会議時に狐の有無のメッセージが送られてくる
+- 占い師がゲームに存在しないと狐はゲーム出現しない
