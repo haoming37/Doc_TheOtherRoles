@@ -30,11 +30,12 @@ Among Usをコピーする
 ### 1.2.2. Polus.ggのアカウント作成
 https://account.polus.gg/login  
 ※ここのDisplay Nameに登録した名前がゲーム内での表示名になるので注意  
+※Discord連携は不要  
 ![images/6.png](images/6.png)
 
 ## 1.3. Modの導入
 ### 1.3.1. Steamへの追加
-SteamのストアでPolug.ggと検索して出てきたアプリを追加する
+SteamのストアでPolus.ggと検索して出てきたアプリを追加する
 ### 1.3.2. 起動
 Steamの通常のゲームと同じ方法で起動できるようになる  
 ![images/7.png](images/7.png)  
