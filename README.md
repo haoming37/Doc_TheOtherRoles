@@ -78,7 +78,7 @@
 ## 導入方法
 ### 0. 必要なファイルをダウンロードする
 
-[TheOtherRoles+HaomingMod.2.8.24.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.24/TheOtherRoles+HaomingMod.2.8.24.zip)  
+[TheOtherRoles+HaomingMod.2.8.25.zip](https://github.com/haoming37/Doc_TheOtherRoles/releases/download/2.8.25/TheOtherRoles+HaomingMod.2.8.25.zip)  
 ### 1. インストールフォルダを開く
 Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ → ローカルファイル　→ ローカルファイルを閲覧
 ![](images/1.png)
@@ -241,7 +241,7 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 
 ---
 #### モタリケ
-- ダイスを一度振ることができる(会議が終わると1回補充)
+- ダイスを振ることができる
 - ダイスを振ると下記の表の効果のどれかがランダムで発生する
 - ダイスを振るたびに自爆が発生する確率が少しずつ上昇していく  
 
@@ -251,13 +251,13 @@ Steamのライブラリ　-> AmongUsを右クリック　→ プロパティ →
 |自爆|5%|
 |キルクールダウン解消|15%|
 |次の投票が2票|15%|
-|位置シャッフル+停電|15%|
-|カモフラージュ(再度振れる）|25%|
-|透明化 ON/OFF(再度振れる)|25%|
+|色シャッフル|15%|
+|位置シャッフル+停電|25%|
+|透明化 ON/OFF|25%|
 
 ダイスを振る都度下記の変化がある  
 自爆確率 + 2%  
-カモフラージュ確率 - 1%  
+位置シャッフル+停電確率 - 1%  
 透明化確率 - 1%  
 
 ---
